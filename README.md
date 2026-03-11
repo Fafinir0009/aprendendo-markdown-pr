@@ -14,3 +14,22 @@ var nome = 'DIogo';
 //bom
 let nome = 'Davi';
 ```
+---
+### definição de funções
+```
+Evite o uso de else
+
+//ruim if (a == b){
+  console.log('Iguais');
+} else {
+console.log('Diferentes')
+
+//bom
+
+if (a == b){
+  console.log ("iguais");
+if (a!=b)
+  console.log ("diferentes");
+
+```
+
